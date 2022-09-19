@@ -1,0 +1,58 @@
+.text-center {
+  text-align: center;
+}
+.kb-signin {
+  background-color: $main-bg-color;
+}
+.kb-signin-contanier {
+  width: 400px;
+  background-color: $secondary-bg;
+  border-radius: 4px;
+}
+.kb-app-bar {
+  background-color: $secondary-bg !important;
+}
+.kb-btn {
+  color: white !important;
+  background-color: $primary-btn-color !important;
+}
+.kb-column-name {
+  margin: 10px 10px;
+  color: $secondary-text-color;
+}
+.kb-kanban {
+  display: flex;
+  width: max-content;
+  height: 100%;
+}
+.kb-kanban-column {
+  display: inline-block;
+  width: 250px;
+  height: 100%;
+  margin: 0 20px;
+  background-color: $main-bg-color;
+}
+.kb-column-item {
+  padding: 10px;
+  margin: 5px 5px;
+  height: 45px;
+  box-shadow: 0px 2px 3px #d6dce6;
+  border-radius: 4px;
+  background-color: $secondary-bg;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.kb-container {
+  padding: 10px;
+  height: 100%;
+  overflow: auto;
+}
+.v-alert {
+  position: fixed;
+  left: 50%;
+  top: 50px;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+  z-index: 100;
+}
